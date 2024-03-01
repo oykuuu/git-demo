@@ -11,5 +11,3 @@ result = arr_1 + arr_2
 print(result)
 
 print("Oyku is done")
-
-
