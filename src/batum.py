@@ -1,4 +1,6 @@
 import numpy as np
 
-print(np.random.random())
-print("Hello world")
+print(np.zeros([2, 5]))
+print("Hello World")
+
+print("exitting")
