@@ -1,4 +1,4 @@
-MY_NAME = "A different name"
+MY_NAME = "A different name :)"
 
 def print_my_name():
     print(f"I won the competition! My name is {MY_NAME}")
