@@ -23,5 +23,5 @@ def write_data(data, path) -> pd.DataFrame:
 def function_with_many_arguments(*args, **kwargs):
     return len(args), len(kwargs)
 df = pd.DataFrame(np.array([[12, 13, 14], [15, 16, 17], [22, 23, 24], [26, 26, 26], [12, 13, 14], [15, 16, 17], [22, 23, 24], [26, 26, 26]]), columns=['column_1', 'column_2', 'column_3'])
-write_data(df,path =  'path/to/data.csv')
+write_data(df,path =  'path/to/data/')
 len_args, len_kwargs = function_with_many_arguments(0, 1, None, "abc",first_key_argument=1,second_key_argument="2",third_key_argument=True)
