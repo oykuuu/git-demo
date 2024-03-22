@@ -1,0 +1,14 @@
+name: code-formatter
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.12
+
+  # Formatting related libraries
+  - black=24.3.0
+  - flake8=7.0.0
+  - isort=5.13.2
+  - pydocstyle=6.3.0
