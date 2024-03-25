@@ -12,3 +12,6 @@ dependencies:
   - flake8=7.0.0
   - isort=5.13.2
   - pydocstyle=6.3.0
+
+  - pre-commit
+  - autoflake
