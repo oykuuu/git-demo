@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+
 
 def addition(array_1, array_2):
 	if len(array_1) != len(array_2):
